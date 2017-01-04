@@ -1,2 +1,13 @@
 mgerror.log
 mglock.dat
+
+# logs
+*.log
+*.txt
+
+# Random Files
+*.XRF
+*.lock
+*.optback
+*.opt
+execution.properties

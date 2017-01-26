@@ -2,7 +2,7 @@
 <Application>
 
   <Header>
-    <Version val="11009"/>
+    <Version val="11000"/>
     <WithIsn val="Y"/>
   </Header>
 
@@ -19,13 +19,11 @@
         <SqlWhereExist val="N"/>
         <TaskType val="B"/>
         <External val="N"/>
-        <OpenRCMDIFrame val="N"/>
-        <Closeopentasks val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736230" _time="36681" date="23/09/2016" time="10:11:21"/>
+        <LastModified _date="736355" _time="39207" date="01/26/2017" time="10:53:27"/>
       </Header>
-      <SourceFileTimeStamp _date="736355" _time="41675" date="26/01/2017" time="11:34:35"/>
+      <SourceFileTimeStamp _date="736355" _time="57207" date="01/26/2017" time="15:53:27"/>
     </Program>
     <Program>
       <Header Description="************************" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="14">
@@ -43,7 +41,7 @@
         <DotNetObjectExists val="N"/>
         <LastModified date="00/00/0000" time="00:00:00"/>
       </Header>
-      <SourceFileTimeStamp _date="736355" _time="41675" date="26/01/2017" time="11:34:35"/>
+      <SourceFileTimeStamp _date="736355" _time="56784" date="01/26/2017" time="15:46:24"/>
     </Program>
     <Program>
       <Header Description="* Sélecteurs" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="15">
@@ -61,7 +59,7 @@
         <DotNetObjectExists val="N"/>
         <LastModified date="00/00/0000" time="00:00:00"/>
       </Header>
-      <SourceFileTimeStamp _date="736355" _time="41675" date="26/01/2017" time="11:34:35"/>
+      <SourceFileTimeStamp _date="736355" _time="56784" date="01/26/2017" time="15:46:24"/>
     </Program>
     <Program>
       <Header Description="************************" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="16">
@@ -79,7 +77,7 @@
         <DotNetObjectExists val="N"/>
         <LastModified date="00/00/0000" time="00:00:00"/>
       </Header>
-      <SourceFileTimeStamp _date="736355" _time="41675" date="26/01/2017" time="11:34:35"/>
+      <SourceFileTimeStamp _date="736355" _time="56784" date="01/26/2017" time="15:46:24"/>
     </Program>
     <Program>
       <Header Description="Calendar" ISN_2="1" LastIsn="1" id="2">
@@ -100,9 +98,9 @@
         <External val="Y"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736355" _time="45551" date="26/01/2017" time="12:39:11"/>
+        <LastModified _date="736355" _time="39478" date="01/26/2017" time="10:57:58"/>
       </Header>
-      <SourceFileTimeStamp _date="736355" _time="41951" date="26/01/2017" time="11:39:11"/>
+      <SourceFileTimeStamp _date="736355" _time="57478" date="01/26/2017" time="15:57:58"/>
     </Program>
     <Program>
       <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="10">
@@ -120,7 +118,7 @@
         <DotNetObjectExists val="N"/>
         <LastModified date="00/00/0000" time="00:00:00"/>
       </Header>
-      <SourceFileTimeStamp _date="736355" _time="41675" date="26/01/2017" time="11:34:35"/>
+      <SourceFileTimeStamp _date="736355" _time="56784" date="01/26/2017" time="15:46:24"/>
     </Program>
     <Program>
       <Header Description="************************" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="19">
@@ -138,7 +136,7 @@
         <DotNetObjectExists val="N"/>
         <LastModified date="00/00/0000" time="00:00:00"/>
       </Header>
-      <SourceFileTimeStamp _date="736355" _time="41675" date="26/01/2017" time="11:34:35"/>
+      <SourceFileTimeStamp _date="736355" _time="56784" date="01/26/2017" time="15:46:24"/>
     </Program>
     <Program>
       <Header Description="* Exemples d'utilisation" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="20">
@@ -156,7 +154,7 @@
         <DotNetObjectExists val="N"/>
         <LastModified date="00/00/0000" time="00:00:00"/>
       </Header>
-      <SourceFileTimeStamp _date="736355" _time="41675" date="26/01/2017" time="11:34:35"/>
+      <SourceFileTimeStamp _date="736355" _time="56784" date="01/26/2017" time="15:46:24"/>
     </Program>
     <Program>
       <Header Description="************************" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="21">
@@ -174,7 +172,7 @@
         <DotNetObjectExists val="N"/>
         <LastModified date="00/00/0000" time="00:00:00"/>
       </Header>
-      <SourceFileTimeStamp _date="736355" _time="41675" date="26/01/2017" time="11:34:35"/>
+      <SourceFileTimeStamp _date="736355" _time="56784" date="01/26/2017" time="15:46:24"/>
     </Program>
     <Program>
       <Header Description="EX_Calendar" ISN_2="1" LastIsn="1" id="18">
@@ -190,9 +188,9 @@
         <External val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736227" _time="37309" date="20/09/2016" time="10:21:49"/>
+        <LastModified _date="736227" _time="37309" date="09/20/2016" time="10:21:49"/>
       </Header>
-      <SourceFileTimeStamp _date="736355" _time="41675" date="26/01/2017" time="11:34:35"/>
+      <SourceFileTimeStamp _date="736355" _time="56784" date="01/26/2017" time="15:46:24"/>
     </Program>
     <Program>
       <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="22">
@@ -210,7 +208,115 @@
         <DotNetObjectExists val="N"/>
         <LastModified date="00/00/0000" time="00:00:00"/>
       </Header>
-      <SourceFileTimeStamp _date="736355" _time="41675" date="26/01/2017" time="11:34:35"/>
+      <SourceFileTimeStamp _date="736355" _time="56784" date="01/26/2017" time="15:46:24"/>
+    </Program>
+    <Program>
+      <Header Description="************************" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="25">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736355" _time="56784" date="01/26/2017" time="15:46:24"/>
+    </Program>
+    <Program>
+      <Header Description="* Tests Unitaires" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="26">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736355" _time="56784" date="01/26/2017" time="15:46:24"/>
+    </Program>
+    <Program>
+      <Header Description="************************" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="27">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736355" _time="56784" date="01/26/2017" time="15:46:24"/>
+    </Program>
+    <Program>
+      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="28">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736355" _time="56784" date="01/26/2017" time="15:46:24"/>
+    </Program>
+    <Program>
+      <Header Description="TestGetFrenchStringMonth" ISN_2="1" LastIsn="1" id="30">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736230" _time="35580" date="09/23/2016" time="09:53:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736355" _time="56784" date="01/26/2017" time="15:46:24"/>
+    </Program>
+    <Program>
+      <Header Description="TestGetFrenchStringDay" ISN_2="1" LastIsn="1" id="32">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736230" _time="36209" date="09/23/2016" time="10:03:29"/>
+      </Header>
+      <SourceFileTimeStamp _date="736355" _time="56784" date="01/26/2017" time="15:46:24"/>
     </Program>
   </ProgramsRepositoryHeaders>
 

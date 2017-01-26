@@ -2,7 +2,7 @@
 <Application>
 
   <Header>
-    <Version val="11009"/>
+    <Version val="11000"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
@@ -29,7 +29,7 @@
           <External val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736216" _time="53755" date="09/09/2016" time="14:55:55"/>
+          <LastModified _date="736333" _time="64669" date="01/04/2017" time="17:57:49"/>
         </Header>
         <ReturnValueExpression val="132"/>
         <ItemIsn val="61"/>
@@ -1613,7 +1613,6 @@
               <EventType val="S"/>
               <PublicObject comp="-1"/>
             </Event>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Remark FlowIsn="79">
@@ -1721,19 +1720,34 @@
                   <Direction val="C"/>
                 </Evaluate>
               </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="93">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="81">
-                  <Type val="2"/>
-                  <Text val="// click sur mois précedent"/>
-                </Remark>
-              </LogicLine>
             </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="10" propagate="78">
+            <Level val="K"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="84"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+          </LogicUnit>
+          <LogicUnit id="22" propagate="78">
+            <Level val="K"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="82"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="// click sur mois précedent"/>
           </LogicUnit>
           <LogicUnit id="4" propagate="78">
             <Level val="H"/>
@@ -1750,7 +1764,6 @@
               <PublicObject comp="-1"/>
             </Event>
             <TXT val="btn.removeMonth"/>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Update FlowIsn="11">
@@ -1764,7 +1777,7 @@
                 </Update>
               </LogicLine>
               <LogicLine>
-                <BLOCK EndBlock="88" EndBlockSegment="88" FlowIsn="12" Type="I">
+                <BLOCK EndBlock="86" EndBlockSegment="86" FlowIsn="12" Type="I">
                   <Condition Exp="4"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -1827,19 +1840,34 @@
                   <Direction val="C"/>
                 </RaiseEvent>
               </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="16">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="82">
-                  <Type val="2"/>
-                  <Text val="// click sur mois suivant"/>
-                </Remark>
-              </LogicLine>
             </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="11" propagate="78">
+            <Level val="K"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="94"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+          </LogicUnit>
+          <LogicUnit id="23" propagate="78">
+            <Level val="K"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="90"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="// click sur mois suivant"/>
           </LogicUnit>
           <LogicUnit id="5" propagate="78">
             <Level val="H"/>
@@ -1856,7 +1884,6 @@
               <PublicObject comp="-1"/>
             </Event>
             <TXT val="btn.addMonth"/>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Update FlowIsn="17">
@@ -1870,7 +1897,7 @@
                 </Update>
               </LogicLine>
               <LogicLine>
-                <BLOCK EndBlock="98" EndBlockSegment="98" FlowIsn="18" Type="I">
+                <BLOCK EndBlock="94" EndBlockSegment="94" FlowIsn="18" Type="I">
                   <Condition Exp="5"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -1933,43 +1960,76 @@
                   <Direction val="C"/>
                 </RaiseEvent>
               </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="25">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="87">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="83">
-                  <Type val="2"/>
-                  <Text val="/*"/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="84">
-                  <Type val="2"/>
-                  <Text val=" * formatage du mois en français + année"/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="85">
-                  <Type val="2"/>
-                  <Text val=" *"/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="86">
-                  <Type val="2"/>
-                  <Text val=" */"/>
-                </Remark>
-              </LogicLine>
             </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="12" propagate="78">
+            <Level val="K"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="108"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+          </LogicUnit>
+          <LogicUnit id="24" propagate="78">
+            <Level val="K"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="104"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="/*"/>
+          </LogicUnit>
+          <LogicUnit id="25" propagate="78">
+            <Level val="K"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="104"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val=" * formatage du mois en français + année"/>
+          </LogicUnit>
+          <LogicUnit id="26" propagate="78">
+            <Level val="K"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="104"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="*"/>
+          </LogicUnit>
+          <LogicUnit id="27" propagate="78">
+            <Level val="K"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="104"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="*/"/>
           </LogicUnit>
           <LogicUnit id="6" propagate="78">
             <Level val="F"/>
@@ -1987,7 +2047,6 @@
             </Event>
             <TXT val="getYearMonth"/>
             <ReturnValueExpression val="12"/>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Select FieldID="8" FlowIsn="70" id="8">
@@ -2028,19 +2087,34 @@
                   <Direction val="C"/>
                 </Update>
               </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="94">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="95">
-                  <Type val="2"/>
-                  <Text val="// mise à jour des jours"/>
-                </Remark>
-              </LogicLine>
             </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="13" propagate="78">
+            <Level val="K"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="114"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+          </LogicUnit>
+          <LogicUnit id="28" propagate="78">
+            <Level val="K"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="102"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="// mise à jour des jours"/>
           </LogicUnit>
           <LogicUnit id="7" propagate="78">
             <Level val="F"/>
@@ -2055,7 +2129,6 @@
               <PublicObject comp="-1"/>
             </Event>
             <TXT val="setDays"/>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Update FlowIsn="467">
@@ -2547,13 +2620,20 @@
                   <Direction val="C"/>
                 </Update>
               </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="168">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
             </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="14" propagate="78">
+            <Level val="K"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="160"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
           </LogicUnit>
           <LogicUnit id="8" propagate="78">
             <Level val="F"/>
@@ -2572,14 +2652,7 @@
             </Event>
             <TXT val="getDate"/>
             <ReturnValueExpression val="64"/>
-            <Expanded val="1"/>
             <LogicLines>
-              <LogicLine>
-                <Remark FlowIsn="131">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
               <LogicLine>
                 <Select FieldID="11" FlowIsn="100" id="11">
                   <Column val="50"/>
@@ -2615,7 +2688,7 @@
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <BLOCK EndBlock="171" EndBlockSegment="167" FlowIsn="133" Type="I">
+                <BLOCK EndBlock="157" EndBlockSegment="153" FlowIsn="133" Type="I">
                   <Condition Exp="59"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -2633,7 +2706,7 @@
                 </Update>
               </LogicLine>
               <LogicLine>
-                <BLOCK EndBlock="171" EndBlockSegment="169" FlowIsn="136" Type="E">
+                <BLOCK EndBlock="157" EndBlockSegment="155" FlowIsn="136" Type="E">
                   <Condition Exp="60"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -2651,7 +2724,7 @@
                 </Update>
               </LogicLine>
               <LogicLine>
-                <BLOCK EndBlock="171" EndBlockSegment="171" FlowIsn="142" Type="E">
+                <BLOCK EndBlock="157" EndBlockSegment="157" FlowIsn="142" Type="E">
                   <Condition val="Y"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -2671,13 +2744,20 @@
               <LogicLine>
                 <END_BLK FlowIsn="134"/>
               </LogicLine>
-              <LogicLine>
-                <Remark FlowIsn="738">
-                  <Type val="2"/>
-                  <Text val=" "/>
-                </Remark>
-              </LogicLine>
             </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="15" propagate="78">
+            <Level val="K"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="173"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
           </LogicUnit>
           <LogicUnit id="9" propagate="78">
             <Level val="F"/>
@@ -2695,7 +2775,6 @@
               <PublicObject comp="-1"/>
             </Event>
             <TXT val="returnValue"/>
-            <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
                 <Select FieldID="60" FlowIsn="740" id="60">

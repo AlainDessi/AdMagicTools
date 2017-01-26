@@ -5,15 +5,46 @@
     <Version val="11009"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="8"/>
-    <LastIsnFolder val="0"/>
-    <Folders/>
+    <LastIsn val="32"/>
+    <LastIsnFolder val="5"/>
+    <Folders>
+      <Folder id="1">
+        <Name val="Tools"/>
+        <StartsAt val="1"/>
+        <NumberOfEntries val="5"/>
+      </Folder>
+      <Folder id="2">
+        <Name val="Exemples"/>
+        <StartsAt val="6"/>
+        <NumberOfEntries val="5"/>
+      </Folder>
+      <Folder id="4">
+        <Name val="TestUnitaires"/>
+        <StartsAt val="11"/>
+        <NumberOfEntries val="6"/>
+      </Folder>
+    </Folders>
   </Header>
 
   <ProgramsRepositoryOutLine>
     <Programs>
       <Program id="1"/>
+      <Program id="14"/>
+      <Program id="15"/>
+      <Program id="16"/>
       <Program id="2"/>
+      <Program id="10"/>
+      <Program id="19"/>
+      <Program id="20"/>
+      <Program id="21"/>
+      <Program id="18"/>
+      <Program id="22"/>
+      <Program id="25"/>
+      <Program id="26"/>
+      <Program id="27"/>
+      <Program id="28"/>
+      <Program id="30"/>
+      <Program id="32"/>
     </Programs>
   </ProgramsRepositoryOutLine>
 

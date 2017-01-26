@@ -1,0 +1,18 @@
+       // Magic ECI Generator                                          //
+       // Created by   :SUPERVISOR--SUPERVISOR         //
+       // Created Date :20/09/2016 Time :11:45:23              //
+       // File Name    :C:\Users\Dessi\Documents\06-developmentMSE\Unipass\AdMagicTools\Dist\AdMagicToo
+COMPID = 127868355-10347-20242-88FE7FB95
+NAME = "AdMagicTools"
+DESC = "A set of tools for Magic Unipaas"
+COMPTYPE = "uniPaaS"
+IMMED = "Y"
+PROJECTFILE = "C:\Users\Dessi\Documents\06-developmentMSE\Unipass\AdMagicTools\AdMagicTools.edp"
+CABINETFILE = "C:\Users\Dessi\Documents\06-developmentMSE\Unipass\AdMagicTools\Dist\AdMagicTools.ecf"
+VRSN = 0.1.2
+HLPFILE = ""
+HLPKEY = ""
+
+PRG=PUBLIC="AD_Calendar" RMK="" HELPKEY=""
+
+[ENVIRONMENT]

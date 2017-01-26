@@ -13,6 +13,7 @@
         <SQL val="N"/>
         <ReturnValue>
           <ReturnValueAttr/>
+          <ParametersCount val="2"/>
           <ParametersAttributes/>
         </ReturnValue>
         <SqlWhereExist val="N"/>
@@ -22,12 +23,67 @@
         <Closeopentasks val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736216" _time="9768" date="09/09/2016" time="02:42:48"/>
+        <LastModified _date="736230" _time="36681" date="23/09/2016" time="10:11:21"/>
       </Header>
-      <SourceFileTimeStamp _date="736216" _time="2568" date="09/09/2016" time="00:42:48"/>
+      <SourceFileTimeStamp _date="736230" _time="29481" date="23/09/2016" time="08:11:21"/>
+    </Program>
+    <Program>
+      <Header Description="************************" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="14">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736217" _time="41121" date="10/09/2016" time="11:25:21"/>
+    </Program>
+    <Program>
+      <Header Description="* Sélecteurs" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="15">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736217" _time="41129" date="10/09/2016" time="11:25:29"/>
+    </Program>
+    <Program>
+      <Header Description="************************" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="16">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736217" _time="41123" date="10/09/2016" time="11:25:23"/>
     </Program>
     <Program>
       <Header Description="Calendar" ISN_2="1" LastIsn="1" id="2">
+        <Public val="AD_Calendar"/>
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -41,12 +97,228 @@
         </ReturnValue>
         <SqlWhereExist val="N"/>
         <TaskType val="O"/>
+        <External val="Y"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736227" _time="42240" date="20/09/2016" time="11:44:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736227" _time="35041" date="20/09/2016" time="09:44:01"/>
+    </Program>
+    <Program>
+      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="10">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
         <External val="N"/>
         <FormType val="N"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="736216" _time="53755" date="09/09/2016" time="14:55:55"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
       </Header>
-      <SourceFileTimeStamp _date="736216" _time="46555" date="09/09/2016" time="12:55:55"/>
+      <SourceFileTimeStamp _date="736217" _time="41083" date="10/09/2016" time="11:24:43"/>
+    </Program>
+    <Program>
+      <Header Description="************************" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="19">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736227" _time="29858" date="20/09/2016" time="08:17:38"/>
+    </Program>
+    <Program>
+      <Header Description="* Exemples d'utilisation" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="20">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736227" _time="29870" date="20/09/2016" time="08:17:50"/>
+    </Program>
+    <Program>
+      <Header Description="************************" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="21">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736227" _time="29860" date="20/09/2016" time="08:17:40"/>
+    </Program>
+    <Program>
+      <Header Description="EX_Calendar" ISN_2="1" LastIsn="1" id="18">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736227" _time="37309" date="20/09/2016" time="10:21:49"/>
+      </Header>
+      <SourceFileTimeStamp _date="736227" _time="30109" date="20/09/2016" time="08:21:49"/>
+    </Program>
+    <Program>
+      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="22">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736227" _time="29872" date="20/09/2016" time="08:17:52"/>
+    </Program>
+    <Program>
+      <Header Description="************************" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="25">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736227" _time="29904" date="20/09/2016" time="08:18:24"/>
+    </Program>
+    <Program>
+      <Header Description="* Tests Unitaires" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="26">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736227" _time="29913" date="20/09/2016" time="08:18:33"/>
+    </Program>
+    <Program>
+      <Header Description="************************" ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="27">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736227" _time="29906" date="20/09/2016" time="08:18:26"/>
+    </Program>
+    <Program>
+      <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="28">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified date="00/00/0000" time="00:00:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736227" _time="29914" date="20/09/2016" time="08:18:34"/>
+    </Program>
+    <Program>
+      <Header Description="TestGetFrenchStringMonth" ISN_2="1" LastIsn="1" id="30">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736230" _time="35580" date="23/09/2016" time="09:53:00"/>
+      </Header>
+      <SourceFileTimeStamp _date="736230" _time="28380" date="23/09/2016" time="07:53:00"/>
+    </Program>
+    <Program>
+      <Header Description="TestGetFrenchStringDay" ISN_2="1" LastIsn="1" id="32">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="O"/>
+        <External val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="736230" _time="36209" date="23/09/2016" time="10:03:29"/>
+      </Header>
+      <SourceFileTimeStamp _date="736230" _time="29009" date="23/09/2016" time="08:03:29"/>
     </Program>
   </ProgramsRepositoryHeaders>
 

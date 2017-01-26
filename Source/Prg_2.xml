@@ -13,6 +13,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="Calendar" ISN_2="1" LastIsn="1" id="2">
+          <Public val="AD_Calendar"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -26,10 +27,10 @@
           </ReturnValue>
           <SqlWhereExist val="N"/>
           <TaskType val="O"/>
-          <External val="N"/>
+          <External val="Y"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736216" _time="53755" date="09/09/2016" time="14:55:55"/>
+          <LastModified _date="736227" _time="42240" date="20/09/2016" time="11:44:00"/>
         </Header>
         <ReturnValueExpression val="132"/>
         <ItemIsn val="61"/>
@@ -1622,6 +1623,17 @@
                 </Remark>
               </LogicLine>
               <LogicLine>
+                <Update FlowIsn="923">
+                  <FieldID val="59"/>
+                  <WithValue val="134"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
                 <Update FlowIsn="50">
                   <FieldID val="1"/>
                   <WithValue val="1"/>
@@ -1764,7 +1776,7 @@
                 </Update>
               </LogicLine>
               <LogicLine>
-                <BLOCK EndBlock="88" EndBlockSegment="88" FlowIsn="12" Type="I">
+                <BLOCK EndBlock="89" EndBlockSegment="89" FlowIsn="12" Type="I">
                   <Condition Exp="4"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -1870,7 +1882,7 @@
                 </Update>
               </LogicLine>
               <LogicLine>
-                <BLOCK EndBlock="98" EndBlockSegment="98" FlowIsn="18" Type="I">
+                <BLOCK EndBlock="99" EndBlockSegment="99" FlowIsn="18" Type="I">
                   <Condition Exp="5"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -2615,7 +2627,7 @@
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <BLOCK EndBlock="171" EndBlockSegment="167" FlowIsn="133" Type="I">
+                <BLOCK EndBlock="172" EndBlockSegment="168" FlowIsn="133" Type="I">
                   <Condition Exp="59"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -2633,7 +2645,7 @@
                 </Update>
               </LogicLine>
               <LogicLine>
-                <BLOCK EndBlock="171" EndBlockSegment="169" FlowIsn="136" Type="E">
+                <BLOCK EndBlock="172" EndBlockSegment="170" FlowIsn="136" Type="E">
                   <Condition Exp="60"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -2651,7 +2663,7 @@
                 </Update>
               </LogicLine>
               <LogicLine>
-                <BLOCK EndBlock="171" EndBlockSegment="171" FlowIsn="142" Type="E">
+                <BLOCK EndBlock="172" EndBlockSegment="172" FlowIsn="142" Type="E">
                   <Condition val="Y"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -2757,11 +2769,11 @@
             </PropertyList>
             <Control _test_id="2" id="2">
               <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="3"/>
+                <Text id="19" valUnicode="&lt;"/>
                 <Width id="23" val="32"/>
                 <Height id="24" val="12"/>
                 <ControlName id="46" val="btn.removeMonth"/>
-                <Font id="50" val="16"/>
+                <Font id="50" val="5"/>
                 <Color id="51" val="3"/>
                 <Style id="63" val="1"/>
                 <HorizontalAlignment id="65" val="2"/>
@@ -2793,12 +2805,12 @@
             </Control>
             <Control _test_id="3" id="3">
               <PropertyList model="CTRL_GUI0_STATIC">
-                <Text id="19" valUnicode="4"/>
+                <Text id="19" valUnicode=">"/>
                 <Left id="21" val="192"/>
                 <Width id="23" val="32"/>
                 <Height id="24" val="12"/>
                 <ControlName id="46" val="btn.addMonth"/>
-                <Font id="50" val="16"/>
+                <Font id="50" val="5"/>
                 <Color id="51" val="3"/>
                 <Style id="63" val="1"/>
                 <HorizontalAlignment id="65" val="2"/>
@@ -4625,6 +4637,10 @@
           <Expression id="140">
             <ExpSyntax val="{0,1} = '00/00/0000'DATE OR {0,1} = '01/01/1901'DATE"/>
             <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="141">
+            <ExpSyntax val="{0,1}"/>
+            <ExpAttribute val="D"/>
           </Expression>
         </Expressions>
       </Task>

@@ -5,3 +5,11 @@
 
 ###Calendar##
 **Calendar** comme son nom l'indique un calendrier qui permet à l'utilisateur de selectionner une date.
+
+#AdMagicTools (EN)#
+**AdMagicTools** is a set of useful tools for Unipaas (Magic) applications.
+
+## Currently available tools ##
+
+###Calendar##
+** Calendar ** as its name indicates a calendar that allows the user to select a date.

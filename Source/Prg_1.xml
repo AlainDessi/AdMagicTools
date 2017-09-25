@@ -2,7 +2,7 @@
 <Application>
 
   <Header>
-    <Version val="11009"/>
+    <Version val="11000"/>
     <WithIsn val="Y"/>
     <_InternalTask val="N"/>
     <IsRoot val="N"/>
@@ -23,11 +23,9 @@
           <SqlWhereExist val="N"/>
           <TaskType val="B"/>
           <External val="N"/>
-          <OpenRCMDIFrame val="N"/>
-          <Closeopentasks val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736230" _time="36681" date="23/09/2016" time="10:11:21"/>
+          <LastModified _date="736355" _time="39207" date="01/26/2017" time="10:53:27"/>
         </Header>
         <ItemIsn val="4"/>
         <Resource>
@@ -165,7 +163,7 @@
               <LogicLine>
                 <Remark FlowIsn="7">
                   <Type val="2"/>
-                  <Text val=" * retourne le mois litteral d'une date"/>
+                  <Text val=" * retourne le mois litteral d'une date - Returns the literal month of a date"/>
                 </Remark>
               </LogicLine>
               <LogicLine>
@@ -177,7 +175,7 @@
               <LogicLine>
                 <Remark FlowIsn="9">
                   <Type val="2"/>
-                  <Text val=" * @param date v.date date à convertir"/>
+                  <Text val=" * @param date v.date date à convertir - date to convert"/>
                 </Remark>
               </LogicLine>
               <LogicLine>
@@ -251,6 +249,19 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="4" propagate="78">
+            <Level val="K"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="14"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+          </LogicUnit>
           <LogicUnit id="3" propagate="78">
             <Level val="F"/>
             <_DspTemplate val="0"/>
@@ -279,7 +290,7 @@
               <LogicLine>
                 <Remark FlowIsn="16">
                   <Type val="2"/>
-                  <Text val=" * retourne le jour litteral d'une date"/>
+                  <Text val=" * retourne le jour litteral d'une date - Returns the day of a date"/>
                 </Remark>
               </LogicLine>
               <LogicLine>
@@ -291,7 +302,7 @@
               <LogicLine>
                 <Remark FlowIsn="18">
                   <Type val="2"/>
-                  <Text val=" * @param date v.date date à convertir"/>
+                  <Text val=" * @param date v.date date à convertir - date to convert"/>
                 </Remark>
               </LogicLine>
               <LogicLine>
